@@ -1,0 +1,236 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fastmc",
+    "module": "fastmc-common",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElementsJava17",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-java17.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-java17.jar",
+          "size": 120228,
+          "sha512": "d9856e1fdfdf3ebe10b0fec76b518063b2d4e9564a322c5f795f77124c404e258ed8d06d0ea073a68a2b0d95a3b5e8ac94b9d69a2c2224c34c838537b706b81d",
+          "sha256": "6c72ac6963b3dde8cf1a971e5e9fb959e7db9369028155bf75341e2f86744e52",
+          "sha1": "a97f0169dee9064f4c8bfcd2b0a1c9784122c1d3",
+          "md5": "7cd08781df4f6c85e73a2d84a3087d97"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElementsJava17",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-java17.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-java17.jar",
+          "size": 120228,
+          "sha512": "d9856e1fdfdf3ebe10b0fec76b518063b2d4e9564a322c5f795f77124c404e258ed8d06d0ea073a68a2b0d95a3b5e8ac94b9d69a2c2224c34c838537b706b81d",
+          "sha256": "6c72ac6963b3dde8cf1a971e5e9fb959e7db9369028155bf75341e2f86744e52",
+          "sha1": "a97f0169dee9064f4c8bfcd2b0a1c9784122c1d3",
+          "md5": "7cd08781df4f6c85e73a2d84a3087d97"
+        }
+      ]
+    },
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-java8.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-java8.jar",
+          "size": 119786,
+          "sha512": "a46e3fd4bc2fe36a42dcea553e765174559f0f27080a12eb0ce241f0c7ff98cb95ffa627f9eaf2255036b59fd15ca0714a9f2494f1a7c62e717235407adac0f3",
+          "sha256": "050cfd4764a8e0cd4f30b622633b32b2783b007938529a060fdb9e358d23d7dc",
+          "sha1": "3c05b9f3cbe2a250181a8f6ad86611c142dd0291",
+          "md5": "94685b6f5de663241cffc9ab613b68f5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-java8.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-java8.jar",
+          "size": 119786,
+          "sha512": "a46e3fd4bc2fe36a42dcea553e765174559f0f27080a12eb0ce241f0c7ff98cb95ffa627f9eaf2255036b59fd15ca0714a9f2494f1a7c62e717235407adac0f3",
+          "sha256": "050cfd4764a8e0cd4f30b622633b32b2783b007938529a060fdb9e358d23d7dc",
+          "sha1": "3c05b9f3cbe2a250181a8f6ad86611c142dd0291",
+          "md5": "94685b6f5de663241cffc9ab613b68f5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElementsClasses",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "classes",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ]
+    },
+    {
+      "name": "runtimeElementsResources",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "resources",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-sources.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-sources.jar",
+          "size": 26136,
+          "sha512": "748823be76417885a4899d2cd9c2ffa50a5b49a10094957b785f3a12600214617b72dec15b5be1b855f38a32dc033970aaeac61a551d77fc1f16e96c2951db5c",
+          "sha256": "07e983ce3a1a95847f30275d00ecb100eb4e63a24af92fdd501f8862b9e8a68f",
+          "sha1": "3afc995bea8fb039f36e7c0182e6be971d2a92c8",
+          "md5": "02f99890a4bd368b9dcbb44937da6b59"
+        }
+      ]
+    }
+  ]
+}
