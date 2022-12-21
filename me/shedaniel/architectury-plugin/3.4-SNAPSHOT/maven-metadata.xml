@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>me.shedaniel</groupId>
+  <artifactId>architectury-plugin</artifactId>
+  <version>3.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20221221.153400</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20221221153400</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>3.4-20221221.153400-1</value>
+        <updated>20221221153400</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>3.4-20221221.153400-1</value>
+        <updated>20221221153400</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.4-20221221.153400-1</value>
+        <updated>20221221153400</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
