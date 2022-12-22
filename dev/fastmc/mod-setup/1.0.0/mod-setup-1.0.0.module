@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fastmc",
+    "module": "mod-setup",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "mod-setup-1.0.0.jar",
+          "url": "mod-setup-1.0.0.jar",
+          "size": 1608297,
+          "sha512": "252da4be0c90c383dbb6c46c621f65bfc90d28cf907d8e78b5957716702aae6397d6f38dd007fc0fe7e6b32ffbb327a9dbc6c8789f779908489c29bb0f7f4b26",
+          "sha256": "80d01e7cac9ac48a3d16fad16b01ad2da161de32f2d57a0d9504b1806223ae20",
+          "sha1": "b19fb18eb69a24e099fd62972ee7f2d04a008e8e",
+          "md5": "f93145e5cd6d7247566ab8e2cf39aee6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.fastmc",
+          "module": "multi-jdk",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.7.22"
+          }
+        },
+        {
+          "group": "architectury-plugin",
+          "module": "architectury-plugin.gradle.plugin",
+          "version": {
+            "requires": "3.4-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.architectury.loom",
+          "module": "dev.architectury.loom.gradle.plugin",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.minecraftforge.gradle",
+          "module": "ForgeGradle",
+          "version": {
+            "requires": "5.1.58"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "mixingradle",
+          "version": {
+            "requires": "0.7-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mod-setup-1.0.0.jar",
+          "url": "mod-setup-1.0.0.jar",
+          "size": 1608297,
+          "sha512": "252da4be0c90c383dbb6c46c621f65bfc90d28cf907d8e78b5957716702aae6397d6f38dd007fc0fe7e6b32ffbb327a9dbc6c8789f779908489c29bb0f7f4b26",
+          "sha256": "80d01e7cac9ac48a3d16fad16b01ad2da161de32f2d57a0d9504b1806223ae20",
+          "sha1": "b19fb18eb69a24e099fd62972ee7f2d04a008e8e",
+          "md5": "f93145e5cd6d7247566ab8e2cf39aee6"
+        }
+      ]
+    }
+  ]
+}
