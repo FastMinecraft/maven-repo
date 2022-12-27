@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fastmc",
+    "module": "ow2-asm-ktdsl",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ow2-asm-ktdsl-1.0-SNAPSHOT.jar",
+          "url": "ow2-asm-ktdsl-1.0-SNAPSHOT.jar",
+          "size": 8782,
+          "sha512": "80e4711c54399a0d204622682b9e54c0f76aec1e3969dae837814ff15ecdf5e4ba18f1e906b10570fb42ba5180e994f5509091fa32046d26c1d84c32d0a2d3a6",
+          "sha256": "1c708a60fb8808e14180216d64c35ca2b94aac3394e55cc63b5c13f610ed77ca",
+          "sha1": "85af76380d20e492584e0629a599f66756a367f6",
+          "md5": "c45acc888bd1ffb8d22c242a074dcd04"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.9"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ow2-asm-ktdsl-1.0-SNAPSHOT.jar",
+          "url": "ow2-asm-ktdsl-1.0-SNAPSHOT.jar",
+          "size": 8782,
+          "sha512": "80e4711c54399a0d204622682b9e54c0f76aec1e3969dae837814ff15ecdf5e4ba18f1e906b10570fb42ba5180e994f5509091fa32046d26c1d84c32d0a2d3a6",
+          "sha256": "1c708a60fb8808e14180216d64c35ca2b94aac3394e55cc63b5c13f610ed77ca",
+          "sha1": "85af76380d20e492584e0629a599f66756a367f6",
+          "md5": "c45acc888bd1ffb8d22c242a074dcd04"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ow2-asm-ktdsl-1.0-SNAPSHOT-sources.jar",
+          "url": "ow2-asm-ktdsl-1.0-SNAPSHOT-sources.jar",
+          "size": 1651,
+          "sha512": "e5097a36fb5646e02b95ebcb5e3e9f4eabbc0d58a01764496537c73dd276df9ef461e6ee7d5c0cf6315b5469fad1e0bbb05e593d05a0f517aedcfcfc3694cce0",
+          "sha256": "09f4670508e29e1d2ab486c458185f799579d93699aa2376ab0c4e6f5cce2cfe",
+          "sha1": "8f02c6f70d2518f5759731c2deadac03debd2fdd",
+          "md5": "9860638caa1dc4cf027c55e210dc314b"
+        }
+      ]
+    }
+  ]
+}
