@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.fastmc.mod-loader-plugin</groupId>
+  <artifactId>dev.fastmc.mod-loader-plugin.gradle.plugin</artifactId>
+  <versioning>
+    <latest>1.0-SNAPSHOT</latest>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230103102901</lastUpdated>
+  </versioning>
+</metadata>
