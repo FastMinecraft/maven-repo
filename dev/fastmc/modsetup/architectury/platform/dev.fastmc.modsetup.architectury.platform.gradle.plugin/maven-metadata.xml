@@ -3,13 +3,14 @@
   <groupId>dev.fastmc.modsetup.architectury.platform</groupId>
   <artifactId>dev.fastmc.modsetup.architectury.platform.gradle.plugin</artifactId>
   <versioning>
-    <latest>1.0-SNAPSHOT</latest>
+    <latest>1.1-SNAPSHOT</latest>
     <release>1.0.1</release>
     <versions>
       <version>1.0-SNAPSHOT</version>
       <version>1.0.0</version>
       <version>1.0.1</version>
+      <version>1.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20221231145857</lastUpdated>
+    <lastUpdated>20230103103207</lastUpdated>
   </versioning>
 </metadata>
