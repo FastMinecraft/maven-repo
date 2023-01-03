@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.luna5ama",
+    "module": "jar-optimizer",
+    "version": "1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT.jar",
+          "size": 49556,
+          "sha512": "b8af2adead5ff7c24e63c2b979c689ebec062ac83c77170c184a3c2dbb5fdeddfb80a0d5e490c65dae828d9a41eedbbb63e902402aef7511caa242cfbff3674a",
+          "sha256": "5c1fa2c3879bc67d699d411d5a0d5f2fe13f7da9f1db651f8fb4457c208de1be",
+          "sha1": "acf6723306924ae2bd6af895e2d26ec9688215f0",
+          "md5": "1a2d5b7bb34f007c82c9552672ec2f2e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.11"
+          }
+        },
+        {
+          "group": "org.apache.bcel",
+          "module": "bcel",
+          "version": {
+            "requires": "6.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT.jar",
+          "size": 49556,
+          "sha512": "b8af2adead5ff7c24e63c2b979c689ebec062ac83c77170c184a3c2dbb5fdeddfb80a0d5e490c65dae828d9a41eedbbb63e902402aef7511caa242cfbff3674a",
+          "sha256": "5c1fa2c3879bc67d699d411d5a0d5f2fe13f7da9f1db651f8fb4457c208de1be",
+          "sha1": "acf6723306924ae2bd6af895e2d26ec9688215f0",
+          "md5": "1a2d5b7bb34f007c82c9552672ec2f2e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT-javadoc.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "91988fbf18a3225d710c732b2ada3e8a02e89183500d8eb37d0947a72c5028270b73dc5559503604f7ad93b4a855e37fbed42fb9e646f148370879c06c1975f5",
+          "sha256": "776701ba532da79424ec1149ebcbdef70e05127c7fe730b24ec637c27851324f",
+          "sha1": "28a40a0cd328a64f22e1bc6e76a269a5a820b88f",
+          "md5": "f296b59372f7eaa3cab0998a4e4b801a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT-sources.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT-sources.jar",
+          "size": 2452,
+          "sha512": "8f725abb9656405a017783b4c91d84ba06ebee42781c13d0d5a77b1b2fc2fa21da30420f6f3886c912513767bd2137da6d7fb9460b0aa976a196f205ea84d950",
+          "sha256": "a7a98e57535b09ccf03547e5044424d0502b5ac5ebe35d69e1bff9756d2b47d2",
+          "sha1": "95ae6875db924b6eac022fb8e1dd7649bc45c083",
+          "md5": "65b9425ab82988fd017f2396b79d2bad"
+        }
+      ]
+    }
+  ]
+}
