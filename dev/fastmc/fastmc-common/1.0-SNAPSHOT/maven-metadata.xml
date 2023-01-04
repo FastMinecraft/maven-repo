@@ -5,38 +5,38 @@
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20221222.104611</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20230104.185631</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20221222104611</lastUpdated>
+    <lastUpdated>20230104185631</lastUpdated>
     <snapshotVersions>
+      <snapshotVersion>
+        <classifier>java8</classifier>
+        <extension>jar</extension>
+        <value>1.0-20230104.185631-4</value>
+        <updated>20230104185631</updated>
+      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0-20221222.104611-3</value>
-        <updated>20221222104611</updated>
+        <value>1.0-20230104.185631-4</value>
+        <updated>20230104185631</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20230104.185631-4</value>
+        <updated>20230104185631</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0-20230104.185631-4</value>
+        <updated>20230104185631</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>java17</classifier>
         <extension>jar</extension>
-        <value>1.0-20221222.104611-3</value>
-        <updated>20221222104611</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0-20221222.104611-3</value>
-        <updated>20221222104611</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0-20221222.104611-3</value>
-        <updated>20221222104611</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>java8</classifier>
-        <extension>jar</extension>
-        <value>1.0-20221222.104611-3</value>
-        <updated>20221222104611</updated>
+        <value>1.0-20230104.185631-4</value>
+        <updated>20230104185631</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

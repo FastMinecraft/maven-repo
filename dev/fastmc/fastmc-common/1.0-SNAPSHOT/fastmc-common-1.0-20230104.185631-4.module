@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fastmc",
+    "module": "fastmc-common",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElementsJava8",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-java8.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-java8.jar",
+          "size": 137395,
+          "sha512": "f0c3c8fdee2d12c82442800ab3ab959e39ed882b161ca2c1475fc248cce92e2b3cd4cd020cd795c8ffe87066d0dc9c4f18040d2a074b642e0fbc8abb5ea2fdfb",
+          "sha256": "7ad7ee70d663e097ff872abdf5b29b61e7903a6344206b505c69bb3f4564c193",
+          "sha1": "83de4b936825d9d5402c70a725884a8136ba5e45",
+          "md5": "0079606c8ff47ffaf9092f5e1e003c5d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElementsJava8",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-java8.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-java8.jar",
+          "size": 137395,
+          "sha512": "f0c3c8fdee2d12c82442800ab3ab959e39ed882b161ca2c1475fc248cce92e2b3cd4cd020cd795c8ffe87066d0dc9c4f18040d2a074b642e0fbc8abb5ea2fdfb",
+          "sha256": "7ad7ee70d663e097ff872abdf5b29b61e7903a6344206b505c69bb3f4564c193",
+          "sha1": "83de4b936825d9d5402c70a725884a8136ba5e45",
+          "md5": "0079606c8ff47ffaf9092f5e1e003c5d"
+        }
+      ]
+    },
+    {
+      "name": "apiElementsJava17",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-java17.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-java17.jar",
+          "size": 137870,
+          "sha512": "cca8cd4879fd0a14e219951c10cef55164a58c1195d41660d203bd3c88d9971e73376aa41876b64c3f66c1c8976db0d4cda5bd925e4913d6716c94108a1b8b0b",
+          "sha256": "74e610175986ca815f078984f3817bd6e1cf97425d720a44070755213c0f39b5",
+          "sha1": "0519c298c0f49c542ef69e237d8e725e42b343e3",
+          "md5": "e2ec42ba3e212fd8fc50fa16c22c7da3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElementsJava17",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-java17.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-java17.jar",
+          "size": 137870,
+          "sha512": "cca8cd4879fd0a14e219951c10cef55164a58c1195d41660d203bd3c88d9971e73376aa41876b64c3f66c1c8976db0d4cda5bd925e4913d6716c94108a1b8b0b",
+          "sha256": "74e610175986ca815f078984f3817bd6e1cf97425d720a44070755213c0f39b5",
+          "sha1": "0519c298c0f49c542ef69e237d8e725e42b343e3",
+          "md5": "e2ec42ba3e212fd8fc50fa16c22c7da3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastmc-common-1.0-SNAPSHOT-sources.jar",
+          "url": "fastmc-common-1.0-SNAPSHOT-sources.jar",
+          "size": 34108,
+          "sha512": "e0aa8f4e8f26dd2e7123bf8f43a2f35b729ff66232b62f54c557a8c673345f9d7c280484e7d086d681ee06faeb3ba9c83d7bd069e2cc4b217d7102e611055ed2",
+          "sha256": "44d2f64fbe97e0ddff75431aeb1d6a99a24e2f0e3e7e1da48cf90ceb1a1305b0",
+          "sha1": "5535ba6bbd622a0b185ce7ce3286f6d06f2ad2ac",
+          "md5": "d4770f9677b156f6a5564cb02d4cb455"
+        }
+      ]
+    }
+  ]
+}
