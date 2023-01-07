@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.fastmc",
+    "module": "mod-setup",
+    "version": "1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "mod-setup-1.2-SNAPSHOT.jar",
+          "url": "mod-setup-1.2-SNAPSHOT.jar",
+          "size": 74467,
+          "sha512": "5ebf6ed01caade217740b3c561785ef6a56f1b3788f78664fbccaec07f93752a80f84e6c85088a6fff58c1d1a9f5751572368e390d8435ba783ff292b89d9ab8",
+          "sha256": "e4dd9c6f6bafed8ab6e14992998ae4125bbafd071750a30fc8fae4410e8ea875",
+          "sha1": "f9bb110f7492cc6357459db172b74420f0863fb7",
+          "md5": "f29dac85e14d5d7706adaa3827af65a7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "dev.luna5ama",
+          "module": "jar-optimizer",
+          "version": {
+            "requires": "1.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.fastmc",
+          "module": "multi-jdk",
+          "version": {
+            "requires": "1.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.fastmc",
+          "module": "fast-remapper",
+          "version": {
+            "requires": "1.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.fastmc",
+          "module": "mod-loader-plugin",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "architectury-plugin",
+          "module": "architectury-plugin.gradle.plugin",
+          "version": {
+            "requires": "3.4-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.architectury.loom",
+          "module": "dev.architectury.loom.gradle.plugin",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.minecraftforge.gradle",
+          "module": "ForgeGradle",
+          "version": {
+            "requires": "5.1.58"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mod-setup-1.2-SNAPSHOT.jar",
+          "url": "mod-setup-1.2-SNAPSHOT.jar",
+          "size": 74467,
+          "sha512": "5ebf6ed01caade217740b3c561785ef6a56f1b3788f78664fbccaec07f93752a80f84e6c85088a6fff58c1d1a9f5751572368e390d8435ba783ff292b89d9ab8",
+          "sha256": "e4dd9c6f6bafed8ab6e14992998ae4125bbafd071750a30fc8fae4410e8ea875",
+          "sha1": "f9bb110f7492cc6357459db172b74420f0863fb7",
+          "md5": "f29dac85e14d5d7706adaa3827af65a7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mod-setup-1.2-SNAPSHOT-sources.jar",
+          "url": "mod-setup-1.2-SNAPSHOT-sources.jar",
+          "size": 15566,
+          "sha512": "1fb33f2f93f455ca13ff6dad66a1b2fd97d0a46645bcd91a526278bc6e4e65633312d2a7c9a1ca5c300a589e25f4a82deae3f9b2f2565652b6694bfa5af051e3",
+          "sha256": "2e1bee9688323f23cbea8fed371234d45943598ea1ab13223b9dd296278c2cea",
+          "sha1": "e89c3a3ea6726215c476e0143623792224dde615",
+          "md5": "4672fb70d7d7abcb12da9d116fe8ca08"
+        }
+      ]
+    }
+  ]
+}

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>dev.fastmc</groupId>
-  <artifactId>mod-setup</artifactId>
+  <groupId>dev.fastmc.mod-setup</groupId>
+  <artifactId>dev.fastmc.mod-setup.gradle.plugin</artifactId>
   <versioning>
     <latest>1.2-SNAPSHOT</latest>
-    <release>1.0.1</release>
     <versions>
-      <version>1.0-SNAPSHOT</version>
-      <version>1.0.0</version>
-      <version>1.0.1</version>
-      <version>1.1-SNAPSHOT</version>
       <version>1.2-SNAPSHOT</version>
     </versions>
     <lastUpdated>20230107022958</lastUpdated>
