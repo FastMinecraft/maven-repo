@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.luna5ama",
+    "module": "jar-optimizer",
+    "version": "1.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT.jar",
+          "size": 60462,
+          "sha512": "934fb285d58d858079291b08b7c13ef96b2a2a81ad2fb0a889bcfe432837cf4b5c5c84a308e0b25e7c0789239dc83bca8da2c04e658aacbde6678f49bd72d41d",
+          "sha256": "8bcb13967ee7c4eaecda806aadc6351031897dc7240d8297c6191860db7a8397",
+          "sha1": "8bd07e8d979cf8226b395498247ffdd57fa54af6",
+          "md5": "2d9e8fbbb38c7f343e0dd122eb583c47"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.5.11"
+          }
+        },
+        {
+          "group": "org.apache.bcel",
+          "module": "bcel",
+          "version": {
+            "requires": "6.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT.jar",
+          "size": 60462,
+          "sha512": "934fb285d58d858079291b08b7c13ef96b2a2a81ad2fb0a889bcfe432837cf4b5c5c84a308e0b25e7c0789239dc83bca8da2c04e658aacbde6678f49bd72d41d",
+          "sha256": "8bcb13967ee7c4eaecda806aadc6351031897dc7240d8297c6191860db7a8397",
+          "sha1": "8bd07e8d979cf8226b395498247ffdd57fa54af6",
+          "md5": "2d9e8fbbb38c7f343e0dd122eb583c47"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT-sources.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT-sources.jar",
+          "size": 4480,
+          "sha512": "21c2dcc13b6efc945170b7fc020d3cb62437f1f940ba58f2bb0e61193bf2b36fffcdac5f2a4ea2745accae3d9e2f54d2ea27549fb62c5d1dd449dd31b5695129",
+          "sha256": "f90459028239af477da80fa9bf87675e7bdc3913cd6996e556e03d32e087fdd1",
+          "sha1": "dedf21e8089cb0a8326ed70c4dd8b6ebb3c1f0f0",
+          "md5": "1bfc1f056d6f0a6c89a57747b6045e85"
+        },
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT-sources.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT-sources.jar",
+          "size": 4480,
+          "sha512": "21c2dcc13b6efc945170b7fc020d3cb62437f1f940ba58f2bb0e61193bf2b36fffcdac5f2a4ea2745accae3d9e2f54d2ea27549fb62c5d1dd449dd31b5695129",
+          "sha256": "f90459028239af477da80fa9bf87675e7bdc3913cd6996e556e03d32e087fdd1",
+          "sha1": "dedf21e8089cb0a8326ed70c4dd8b6ebb3c1f0f0",
+          "md5": "1bfc1f056d6f0a6c89a57747b6045e85"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jar-optimizer-1.2-SNAPSHOT-javadoc.jar",
+          "url": "jar-optimizer-1.2-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "eb94190d753560357af7b9b4ffd4d49f77fbacf3255dd218e26b3429b0044a3eae59bc989ef186e9f06cd4e1538c1a24999bf7b466e9bc7c22cb0c24f902d95c",
+          "sha256": "6085b406a59ef854dbaf8d3e41d71a1527f5b1deb2c14e761b423bec61dcb51e",
+          "sha1": "4cc6e162588f2391fae06d4cd69dc35368833ffb",
+          "md5": "29fba81fc72fbec9c2fd8d320b703dae"
+        }
+      ]
+    }
+  ]
+}
